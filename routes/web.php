@@ -11,8 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('home','home@getHome');
+Route::get('/','home@getHomePage');
