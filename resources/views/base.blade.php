@@ -18,14 +18,15 @@
     <link rel="shortcut icon"  href="https://i.ytimg.com/vi/fUWrhetZh9M/maxresdefault.jpg">
 
     {{--CSS Boostrap--}}
-    <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/bootstrap/css/bootstrap.min.css') }}">
+
 
     {{--CSS self-definition--}}
     @yield('css-uncompress')
     {{--End CSS--}}
 
     {{--JS Boostrap--}}
-    <script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
+{{--    <script src="{{ asset('/bootstrap/js/bootstrap.min.js') }}"></script>--}}
 
     {{--JS self-definition--}}
     @yield('styles')
